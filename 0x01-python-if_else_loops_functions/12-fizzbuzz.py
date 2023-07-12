@@ -3,7 +3,7 @@ def fizzbuzz():
     f = "Fizz"
     b = "Buzz"
     fb = "FizzBuzz"
-    for i in range(0, 101):
+    for i in range(1, 101):
         if i % 3 == 0 and i % 5 != 0:
             print("{}".format(f), end=' ')
         elif i % 5 == 0 and i % 3 != 0:
